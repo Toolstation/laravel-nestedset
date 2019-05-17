@@ -1,5 +1,5 @@
 {
-    "name": "kalnoy/nestedset",
+    "name": "paulund/nestedset",
     "description": "Nested Set Model for Laravel 4-5",
     "keywords": ["laravel", "nested sets", "nsm", "database", "hierarchy"],
     "license": "MIT",
@@ -8,6 +8,10 @@
         {
             "name": "Alexander Kalnoy",
             "email": "lazychaser@gmail.com"
+        },
+        {
+            "name": "Paul Underwood",
+            "email": "paul@paulund.co.uk"
         }
     ],
 
