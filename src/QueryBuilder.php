@@ -887,7 +887,7 @@ class QueryBuilder extends Builder
      */
     protected function fixNodes(array &$dictionary, $parent = null)
     {
-        $parentId = $parent ? $parent->getKey() : null;
+        $parentId = $parent ? $parent->getKey() : 0;
         $cut = $parent ? $parent->getLft() + 1 : 1;
 
         $updated = [];
@@ -977,7 +977,7 @@ class QueryBuilder extends Builder
             ->getDictionary();
 
         $dictionary = [];
-        $parentId = $root ? $root->getKey() : null;
+        $parentId = $root ? $root->getKey() : 0;
 
         $this->buildRebuildDictionary($dictionary, $data, $existing, $parentId);
 
