@@ -1,6 +1,6 @@
 {
-    "name": "kalnoy/nestedset",
-    "description": "Nested Set Model for Laravel 5.7 and up",
+    "name": "toolstation/nestedset",
+    "description": "Nested Set Model for Laravel 7 and up",
     "keywords": ["laravel", "nested sets", "nsm", "database", "hierarchy"],
     "license": "MIT",
 
@@ -8,6 +8,14 @@
         {
             "name": "Alexander Kalnoy",
             "email": "lazychaser@gmail.com"
+        },
+        {
+            "name": "Paul Underwood",
+            "email": "paul@paulund.co.uk"
+        },
+        {
+            "name": "Chris Pratt",
+            "email": "christopher.pratt@toolstation.com"
         }
     ],
 
@@ -32,10 +40,6 @@
     "prefer-stable": true,
 
     "extra": {
-        "branch-alias": {
-            "dev-master": "v5.0.x-dev"
-        },
-
         "laravel": {
             "providers": [
                 "Kalnoy\\Nestedset\\NestedSetServiceProvider"
